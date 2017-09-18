@@ -1,0 +1,364 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#brand, #brand_subnav {
+	background-color:#C30;
+	display:block;
+	padding:10px 5px 10px 40px;
+	margin:0;
+	background:#C30;
+	position:fixed;
+	width:100%;
+	max-width:1155px;
+	top:31px;
+	z-index:11;
+}
+#container 
+{
+    width:100%;
+	max-width:1200px;
+	margin:0px auto 0px auto;
+	padding:0;
+	text-align:left;
+	vertical-align:top;
+	background-color:#fff;
+	position:relative;
+	top:60px;
+}
+#mainnav {
+	display:block;
+	background:#333;
+	text-align:right;
+	position:fixed;
+	width:100%;
+	max-width:1200px;
+	top:0px;
+	white-space:nowrap;
+	z-index:10;
+}
+#mainnav A
+{
+	display:inline-block;
+	padding: 10px;
+	margin:0;
+	text-decoration:none;
+	color:#ccc;
+	background:#333;
+	/*font-family:Georgia, "Times New Roman", Times, serif;*/
+	font-family:"Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-size:.6em;
+	letter-spacing:0px;
+	border-right:1px solid #555;
+}
+#subnav_holder
+{
+	position:absolute;
+	top:-14px;
+	padding:0px;
+	margin:0px;
+	width:100%;
+	max-width:1200px;
+}
+#subnav_holder DIV
+{
+	display:block;
+	display:none;
+	width:100%;
+	background-color:#C30;
+	padding:40px 0px 0px 0px;
+}
+.subnav_wrapper
+{
+	width:calc(100% - 80px);
+	display:block;
+	padding:0px 40px 40px 40px;
+}
+.subnav_table 
+{
+	display:block;
+}
+.subnav_table P
+{
+	font-size:1em;
+	display:block;
+	line-height:normal;
+	padding:0px 0px 10px 0px;
+	margin:0px;
+}
+#content_container {
+	display: block;
+	overflow: hidden;
+	clear:both;
+	margin:5px 0px 20px 0px ;
+	padding:0px 40px 0px 40px;
+	line-height:normal;
+	font-size:1em;
+	font-family:Palatino, Georgia, "Times New Roman", Times, serif;
+}
+#content_container H2
+{
+	font-size:1em;	
+}
+.photos_right
+{
+	display:inline-block;
+	position:relative;	
+}
+.footnote{
+	position:relative;
+	top:-4px;
+	padding:0;
+	margin:0;
+	font-weight:bold;
+	color:red;
+	cursor:pointer;
+	vertical-align:bottom;
+	font-size:1em;
+	letter-spacing:-1px;
+}
+#footnotes P
+{
+	margin:10px 0px 10px 0px;
+	font-size:.9em;
+	line-height:normal;
+	font-weight:normal;
+}
+#footnotes P SUP
+{
+	font-size:.9em;
+	font-weight:bold;
+	color:#000;
+}
+#footnotes_slider_wrapper
+{
+	width:100%;
+	max-width:1200px;
+}
+#footnotes_text
+{
+	width:calc(100% - 50px);
+	font-size:.9em;
+	display:inline-block;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	padding-left:5px;
+}
+#footnote_closer
+{
+	position:relative;
+	right:0px;
+	
+	margin:0;
+	border:1px solid #999;
+	padding:3px;
+	font-family:arial;
+	font-weight:bold;
+	font-size:10px;
+		
+}
+#sponsors A 
+{ 
+	color:#666; 
+	text-decoration:none;
+}
+#sponsors A:hover
+{ 
+	text-decoration:underline;
+}
+
+#journal_volume_info
+{
+	margin: 20px 0px 10px 0px;
+	padding-top: 10px;
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	font-size:10px;
+	letter-spacing:5px;
+	border-top:1px solid #ccc;
+	color:#666;	
+}
+/*  HOME STYLES  */
+DIV#home_left_column
+{
+	display:inline-block;
+	width:30%;
+	padding:0;
+	margin:20px 0px 0px 0px;
+	float:left;
+}
+DIV#home_right_column
+{
+	display:inline-block;
+	width:60%;
+	padding:0;
+	margin:20px 0px 0px 0px;
+	float:right;
+}
+#home_table
+{
+	display:inline-block;
+	padding:0;
+	margin:0;
+}
+#home_journal_issue_title
+{
+	margin:0px 0px 20px 0px;
+	padding:0px 0px 5px 0px;
+	display:block;
+	line-height:1;
+	border-bottom:1px solid #333;	
+}
+#home_banner
+{
+	display:block;
+	position:relative;
+	height: 239px;
+	background:url(../images/home_bg.gif);
+	margin-top:5px;
+}
+#home_banner_tagline
+{
+	font-size: 1em;
+	color:#fff;
+	font-weight:700;
+	position:absolute;
+	top:40px;
+	left:40px;	
+}
+P#home_site_description 
+{
+	line-height:28px;
+}
+.home_banner_photo
+{
+	display:block;
+	position:relative;
+	height: 239px;
+	overflow:hidden;
+}
+#home_banner_photo1
+{
+	background:url(../images/home_banner1.png) no-repeat 165px 0px;
+}
+#home_banner_photo2
+{
+	background:url(../images/home_banner2.png) no-repeat 165px 0px;
+}
+#home_banner_photo3
+{
+	background:url(../images/home_banner3.png) no-repeat 165px 0px;
+}
+#home_banner_photo4
+{
+	background:url(../images/home_banner4.png) no-repeat 165px 0px;
+}
+#home_banner_photo5
+{
+	background:url(../images/home_banner5.png) no-repeat 250px 0px;
+}
+#home_banner_photo6
+{
+	background:url(../images/home_banner6.png) no-repeat 320px 0px;
+}
+#home_banner_photo7
+{
+	background:url(../images/home_banner7.png) no-repeat 165px 0px;
+}
+/*  END HOME STYLES  */
+
+#vol_index_table TD
+{
+	font-size:1em;
+	padding:0px 20px 20px 0px;
+}
+#vol_index_table TD A
+{
+	font-size:1em;	
+}
+P.journal_abstract
+{
+	font-size:1em;	
+}
+@media (max-width:800px) { 
+	P#home_site_description 
+	{
+		font-size:1em;
+	}
+	H1.page_titile
+	{
+		font-size:1.5em;
+	}
+	/* CUSTOM MOBILE FRIENDLY 'TABLE' STUFF */
+	.divTable_twoCol
+	{
+		display:block;
+		width: calc( 100% - 20px );
+	}
+	.divTable_threeCol
+	{
+		display:block;
+		width: calc( 100% - 20px );
+	}
+	.divTable_fourCol
+	{
+		display:block;
+		width: calc( 100% - 20px );
+	}
+	.photos_right
+	{
+		display:block;
+		width:100%;
+		margin-top:30px;
+	}
+	.right_column_padded
+	{
+		width:100%;
+	}
+	.right_column_padded TD
+	{
+		padding:0px 20px 0px 0px;
+		width:33%;
+		text-align:center;
+	}
+	TR:first-child IMG
+	{
+		width:100%;
+	}
+	#content_container 
+	{
+		line-height:1.5;
+		font-size:1.2em;
+	}
+}
+@media (max-width:400px) { 
+	#journal_volume_info
+	{
+		text-align:left;
+	}
+	DIV#home_left_column
+	{
+		display:block;
+		width:100%;
+		padding:0;
+		margin:0;
+		float:none;
+	}
+	DIV#home_right_column
+	{
+		display:block;
+		width:100%;
+		padding:0;
+		margin:20px 0px 20px 0px;
+		float:none;
+	}
+	P#home_site_description 
+	{
+		font-size:1.25em;
+		border-top:1px solid #666;
+		padding-top: 30px;
+	}
+	H1.page_titile
+	{
+		font-size:1.5em;	
+	}
+	

@@ -1,0 +1,36 @@
+<!--#include virtual="/inc/header.html" -->
+
+<p><span class="style12 style3">Search <em>Didaskalia</em></span> </p>
+<form method="post" action="/cgi-bin/htsearch" name="didaskaliasearch">
+ <input name="config" value="htdig-didaskalia" type="hidden" />
+ <input name="sort" value="score" type="hidden" />
+ <table width="43%" border="0" align="center" cellpadding="5" background="images/back4.gif">
+  <tr>
+   <td background="images/back4.gif"><div align="center">
+     <p><span class="style3 style10 style7">Find</span> 
+      <input name="words" value="" size="35" type="text" />
+       
+      <input type="submit" name="Submit" value="Go!" />
+     </p>
+    </div></td>
+  </tr>
+  <tr>
+   <td background="images/back4.gif"><div align="center"><span class="style3"> <span class="style4 style7 style11 style10">Display</span></span> 
+     <select width="50" class="dropdown" name="matchesperpage">
+      <option value="10">10</option>
+      <option value="20">20</option>
+      <option value="10">50</option>
+      <option value="100">100</option>
+     </select>
+     <span class="style5 style11 style10">results per page</span></div></td>
+  </tr>
+ </table>
+ <p>
+  <!--
+    <a onmouseover="imgAct('img1')" onmouseout="imgInact('img1')" href="javascript:document.alasearch.submit()">
+    <img name="img1" src="http://www.icar.org.uk/images/button_search_off.gif" border="0" height="26" width="56">
+    </a>
+    -->
+  <img alt="{$alt_text}" border="0" src="../../images/common/shim.gif" width="1" height="30" /></p>
+</form>
+<!--#include virtual="/inc/footer.html" -->

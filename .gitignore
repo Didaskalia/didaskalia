@@ -1,31 +1,31 @@
 # Multimedia #
 
-.m4v
-.pdf
-.PDF
-.mov
-.MOV
-.wma
-.WMA
-.m4a
-.TNT
-.tif
-.TIF
-.tiff
-.TIFF
-.mp3
-.jpg
-.JPG
-.dic
-.docx
-.png
-.PNG
-.gif
-.GIF
-.bmp
-.BMP
-.jpeg
-.JPEG
+*.m4v
+*.pdf
+*.PDF
+*.mov
+*.MOV
+*.wma
+*.WMA
+*.m4a
+*.TNT
+*.tif
+*.TIF
+*.tiff
+*.TIFF
+*.mp3
+*.jpg
+*.JPG
+*.doc
+*.docx
+*.png
+*.PNG
+*.gif
+*.GIF
+*.bmp
+*.BMP
+*.jpeg
+*.JPEG
 
 
 
