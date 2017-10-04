@@ -19,5 +19,11 @@
 <body>
 <div id="container">
  <div id="mainnav"><!--#if expr='"$DOCUMENT_URI" != "/index.html"' --><a href="/">HOME</a><!--#endif --><a href="#"<!--#if expr='"$DOCUMENT_URI" = "/journal.html"' --> class="currentpage"<!--#endif --> subnav="subnav1">CURRENT ISSUE</a><!--<a href="/views.html"<!--#if expr='"$DOCUMENT_URI" = "/listings/listings.html"' --> class="currentpage"<!--#endif -->>VIEWS</a> --><a href="#"<!--#if expr='"$DOCUMENT_URI" = "/journal.html"' --> class="currentpage"<!--#endif --> subnav="subnav2">BACK ISSUES</a><a href="/about.html"<!--#if expr='"$DOCUMENT_URI" = "/about.html"' --> class="currentpage"<!--#endif -->>ABOUT</a><a href="/search_main_v6.html"<!--#if expr='"$DOCUMENT_URI" = "/search_main_v6.html"' --> class="currentpage"<!--#endif -->>SEARCH</a></div>
- <div id="brand"><a href="/"><img src="/images/logo_img.png" /></a></div><!--#include virtual="/inc/random_header_image2.php" --><div id="content_container"> 
+ <div id="brand"><a href="/"><img src="/images/logo_img.png" /></a></div><!-- start header include --> <div id="home_banner">
+    <div id="home_banner_bg">
+    <div id="home_banner_photo1" class="home_banner_photo">
+    </div>
+    <div id="home_banner_tagline">The Journal for Ancient Performance</div>
+    </div> <!-- end header include -->
+</div><div id="content_container"> 
 
